@@ -14,7 +14,7 @@
             <th width="5%">No</th>
             <th width="25%">Nama</th>
             <th width="15%">NIM</th>
-            <th width="20%">Jurusan</th>
+            <th width="20%">Program Studi</th>
             <th width="35%">Tools</th>
           </tr>
         </thead>
@@ -73,7 +73,7 @@
               <table class="table table-form">
                 <tr><td style="width: 25%">Nama</td><td style="width: 75%"><input type="text" class="form-control" name="nama" id="nama" required></td></tr>
                 <tr><td style="width: 25%">NIM</td><td style="width: 75%"><input type="text" class="form-control" name="nim" id="nim" required></td></tr>
-                <tr><td style="width: 25%">Jurusan</td><td style="width: 75%"><input type="text" class="form-control" name="jurusan" id="jurusan" required></td></tr>
+                <tr><td style="width: 25%">Program Studi</td><td style="width: 75%"><input type="text" class="form-control" name="jurusan" id="jurusan" required></td></tr>
               </table>
       </div>
       <div class="modal-footer">

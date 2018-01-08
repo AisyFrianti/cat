@@ -81,9 +81,9 @@ if ($sess_level == "guru") {
 } else if ($sess_level == "admin") {
   $menu = array(
             array("icon"=>"dashboard", "url"=>"", "text"=>"Dashboard"),
-            array("icon"=>"list-alt", "url"=>"m_siswa", "text"=>"Data Siswa"),
-            array("icon"=>"list-alt", "url"=>"m_guru", "text"=>"Data Guru/Dosen"),
-            array("icon"=>"list-alt", "url"=>"m_mapel", "text"=>"Data Mapel"),
+            array("icon"=>"list-alt", "url"=>"m_siswa", "text"=>"Data Mahasiswa"),
+            array("icon"=>"list-alt", "url"=>"m_guru", "text"=>"Data Dosen"),
+            array("icon"=>"list-alt", "url"=>"m_mapel", "text"=>"Data Mata Kuliah"),
             array("icon"=>"list-alt", "url"=>"m_soal", "text"=>"Soal"),
             array("icon"=>"file", "url"=>"h_ujian", "text"=>"Hasil Ujian"),
           );
