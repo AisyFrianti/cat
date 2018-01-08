@@ -1,6 +1,6 @@
 <div class="row col-md-12">
   <div class="panel panel-info">
-    <div class="panel-heading">Data Mata Pelajaran
+    <div class="panel-heading">Data Mata Kuliah
       <div class="tombol-kanan">
         <a class="btn btn-success btn-sm tombol-kanan" href="#" onclick="return m_mapel_e(0);"><i class="glyphicon glyphicon-plus"></i> &nbsp;&nbsp;Tambah</a>
       </div>
@@ -13,7 +13,7 @@
           <tr>
             <th width="5%">No</th>
             <th width="75%">Nama</th>
-            <th width="20%">Aksi</th>
+            <th width="20%">Tools</th>
           </tr>
         </thead>
 
@@ -56,7 +56,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 id="myModalLabel">Data Mata Pelajaran</h4>
+        <h4 id="myModalLabel">Data Mata Kuliah</h4>
       </div>
       <div class="modal-body">
           <form name="f_mapel" id="f_mapel" onsubmit="return m_mapel_s();">

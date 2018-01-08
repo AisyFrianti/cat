@@ -7,12 +7,12 @@
             <tr>
               <th width="5%">No</th>
               <th width="20%">Nama Tes</th>
-              <th width="20%">Mata Pelajaran</th>
+              <th width="20%">Mata Kuliah</th>
               <th width="10%">Jumlah Soal</th>
               <th width="20%">Waktu</th>
               <th width="10%">Nilai</th>
               <!--<th width="15%">Jenis</th>-->
-              <th width="15%">Aksi</th>
+              <th width="15%">Tools</th>
             </tr>
           </thead>
 

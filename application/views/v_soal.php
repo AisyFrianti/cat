@@ -6,7 +6,7 @@
   		<meta http-equiv="refresh" content="0; url=<?php echo base_url(); ?>adm/noscript">
   	</noscript>
     
-    <title>Computer Based Test (CBT) </title>
+    <title>Aplikasi Test Online</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link href="<?php echo base_url(); ?>___/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo base_url(); ?>___/css/font-awesome.min.css" rel="stylesheet" type="text/css" />

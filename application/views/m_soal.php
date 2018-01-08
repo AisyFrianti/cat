@@ -105,7 +105,7 @@ $uri4 = $this->uri->segment(4);
         <input type="hidden" name="id" id="id" value="0">
           <div id="konfirmasi"></div>
           <table class="table table-form">
-            <tr><td class="" colspan="2" style="width: 20%">Mapel</td>
+            <tr><td class="" colspan="2" style="width: 20%">Matkul</td>
             <td style="width: 80%">
             <?php echo form_dropdown('id_mapel', $p_mapel, '', 'class="form-control" id="id_mapel" required'); ?>
             </td></tr>

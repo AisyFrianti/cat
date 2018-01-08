@@ -13,11 +13,11 @@
           <tr>
             <th width="5%">No</th>
             <th width="25%">Nama Tes</th>
-            <th width="20%">Mata Pelajaran</th>
+            <th width="20%">Mata Kuliah</th>
             <th width="15%">Jumlah Soal</th>
             <th width="20%">Waktu</th>
             <!--<th width="15%">Jenis</th>-->
-            <th width="15%">Aksi</th>
+            <th width="15%">Tools</th>
           </tr>
         </thead>
 
@@ -72,7 +72,7 @@
             <input type="hidden" name="jumlah_soal1" id="jumlah_soal1" value="0">
               <table class="table table-form">
                 <tr><td style="width: 25%">Nama Ujian</td><td style="width: 75%"><input type="text" class="form-control" name="nama_ujian" id="nama_ujian" required></td></tr>
-                <tr><td>Mata Pelajaran</td><td><?php echo form_dropdown('mapel', $p_mapel, '', 'onchange="return __ambil_jumlah_soal(this.value);" class="form-control"  id="mapel" required'); ?></td></tr>
+                <tr><td>Mata Kuliah</td><td><?php echo form_dropdown('mapel', $p_mapel, '', 'onchange="return __ambil_jumlah_soal(this.value);" class="form-control"  id="mapel" required'); ?></td></tr>
                 <tr><td>Jumlah soal</td><td><?php echo form_input('jumlah_soal', '', 'class="form-control"  id="jumlah_soal" required'); ?></td></tr>
                 <tr><td>Waktu</td><td><?php echo form_input('waktu', '', 'class="form-control" id="waktu" placeholder="menit" required'); ?></td></tr>
               </table>

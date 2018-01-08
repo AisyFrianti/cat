@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Dashboard - Aplikasi Ujian Online</title>
+<title>Dashboard - Aplikasi Test Online</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link href="<?php echo base_url(); ?>___/css/bootstrap.css" rel="stylesheet">
@@ -27,7 +27,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand">Aplikasi Ujian Online</a>
+      <a class="navbar-brand">Aplikasi Test Online</a>
     </div>
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav navbar-right">
@@ -134,7 +134,7 @@ $jam_selesai_pc = explode(" ", $detiltes->tgl_selesai);
 
 <div class="row col-md-12">
       <div class="alert alert-danger">
-        Waktu mengerjakan tinggal : <div id="clock" style="display: inline; font-weight: bold"></div>
+        Estimasi Waktu : <div id="clock" style="display: inline; font-weight: bold"></div>
       </div>
       <form role="form" name="_form" method="post" id="_form">
       <?php 
@@ -186,14 +186,14 @@ $jam_selesai_pc = explode(" ", $detiltes->tgl_selesai);
       ?>
 
       <a class="action back btn btn-info btn-lg">Back</a>
-      <a class="action next btn btn-info btn-lg">Berikutnya</a>
-      <a class="action submit btn btn-success btn-lg">Selesai Ujian</a>
+      <a class="action next btn btn-info btn-lg">Next</a>
+      <a class="action submit btn btn-success btn-lg">Finish</a>
       <input type="hidden" name="jml_soal" value="<?php echo $no; ?>">
       </form>
     </div>
 
 <div class="col-md-12" style="border-top: solid 1px #eee; padding-top: 10px; margin-top: 50px; margin-bottom: 20px">
-  <div class="span12"> &copy; 2015 <a href="<?php echo base_url(); ?>adm">Aplikasi Ujian Online</a>. </div>
+  <div class="span12"> &copy; 2015 <a href="<?php echo base_url(); ?>adm">Aplikasi Test Online</a>. </div>
 </div>
 
 

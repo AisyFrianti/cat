@@ -1,6 +1,6 @@
 <div class="row col-md-12">
   <div class="panel panel-info">
-    <div class="panel-heading">Selesai ujian   </div>
+    <div class="panel-heading">Ujian Selesai   </div>
     <div class="panel-body">
      <?php echo $data; ?>
 

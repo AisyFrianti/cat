@@ -1,6 +1,6 @@
 <div class="row col-md-12">
   <div class="panel panel-info">
-    <div class="panel-heading">Data Siswa
+    <div class="panel-heading">Data Mahasiswa
       <div class="tombol-kanan">
         <a class="btn btn-success btn-sm tombol-kanan" href="#" onclick="return m_siswa_e(0);"><i class="glyphicon glyphicon-plus"></i> &nbsp;&nbsp;Tambah</a>
       </div>
@@ -15,7 +15,7 @@
             <th width="25%">Nama</th>
             <th width="15%">NIM</th>
             <th width="20%">Jurusan</th>
-            <th width="35%">Aksi</th>
+            <th width="35%">Tools</th>
           </tr>
         </thead>
 
@@ -65,7 +65,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 id="myModalLabel">Data Siswa</h4>
+        <h4 id="myModalLabel">Data Mahasiswa</h4>
       </div>
       <div class="modal-body">
           <form name="f_siswa" id="f_siswa" onsubmit="return m_siswa_s();">

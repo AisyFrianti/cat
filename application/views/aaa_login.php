@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Dashboard - Aplikasi Ujian Online</title>
+<title>Dashboard - Aplikasi Test Online</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link href="<?php echo base_url(); ?>___/css/bootstrap.css" rel="stylesheet">
@@ -40,7 +40,7 @@
 	<div class="col-md-4"></div>
 </div> 
 
-<div class="ctr"> &copy; 2015 <a href="<?php echo base_url(); ?>adm">Aplikasi Ujian Online</a>. </div>
+<div class="ctr"> &copy; 2015 <a href="<?php echo base_url(); ?>adm">Aplikasi Test Online</a>. </div>
 <!-- /footer --> 
 <!-- Le javascript
 ================================================== --> 
