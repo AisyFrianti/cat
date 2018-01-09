@@ -12,7 +12,7 @@
               <th width="20%">Waktu</th>
               <th width="10%">Nilai</th>
               <!--<th width="15%">Jenis</th>-->
-              <th width="15%">Tools</th>
+              <th width="15%">Keterangan</th>
             </tr>
           </thead>
 
